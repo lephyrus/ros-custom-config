@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="personal-remote" fetch="https://github.com/rattlesnakeos/" revision="11.0" />
+  <remote name="personal-remote" fetch="https://github.com/lephyrus/" />
   <remote name="seedvault-app" fetch="https://github.com/seedvault-app/" revision="android12" />
 
   <!-- this custom repo - do not change path -->
-  <project path="vendor/custom" name="example-custom-config-repo" remote="personal-remote" />
+  <project path="vendor/custom" name="ros-custom-config" remote="personal-remote" revision="12.0" />
 
   <!-- microg repo from rattlesnakeos -->
   <project path="platform/prebuilts/microg" name="microg" remote="rattlesnakeos" clone-depth="1" />
 
-  <!-- seedvault pinned to a specific revision -->
-  <project path="external/seedvault" name="seedvault" remote="seedvault-app" />
+  <!-- seedvault  -->
+  <project path="external/seedvault" name="seedvault" remote="seedvault-app" clone-depth="1" />
+
+  <!-- AuroraStore, AuroraServices -->
+  <project path="external/aurora" name="ros-aurora" remote="personal-remote" clone-depth="1" revision="master" />
 
 </manifest>

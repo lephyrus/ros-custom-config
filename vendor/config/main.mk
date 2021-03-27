@@ -12,6 +12,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Seedvault
 
+# Aurora
+PRODUCT_PACKAGES += \
+    AuroraStore \
+    AuroraServices \
+    AuroraDroid
+
 # Fix for Google Camera
 PRODUCT_COPY_FILES += \
 	vendor/custom/prebuilt/google_experience.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/google_experience.xml
