@@ -1,6 +1,10 @@
 # do not rename this or change path
 DEVICE_PACKAGE_OVERLAYS += vendor/custom/vendor/overlay/common
 
+# Bromite Webview
+PRODUCT_PACKAGES += \
+    bromite-webview
+
 # MicroG
 PRODUCT_PACKAGES += \
     GmsCore \
@@ -16,10 +20,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AuroraStore \
     AuroraServices
-
-# Ungoogled Chromium Webview
-PRODUCT_PACKAGES += \
-    SystemWebView
 
 # Fix for Google Camera
 PRODUCT_COPY_FILES += \
