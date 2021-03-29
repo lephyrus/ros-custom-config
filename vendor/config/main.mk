@@ -2,8 +2,8 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/custom/vendor/overlay/common
 
 # Bromite Webview
-PRODUCT_PACKAGES += \
-    bromite-webview
+# PRODUCT_PACKAGES += \
+#     bromite-webview
 
 # MicroG
 PRODUCT_PACKAGES += \

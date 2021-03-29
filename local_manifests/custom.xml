@@ -2,13 +2,13 @@
 <manifest>
   <remote name="personal-remote" fetch="https://github.com/lephyrus/" revision="11.0" />
   <remote name="seedvault-app" fetch="https://github.com/seedvault-app/" revision="master" />
-  <remote name="MSe1969" fetch="https://github.com/MSe1969/" revision="master" />
+  <!-- <remote name="MSe1969" fetch="https://github.com/MSe1969/" revision="master" /> -->
 
   <!-- this custom repo - do not change path -->
   <project path="vendor/custom" name="ros-custom-config" remote="personal-remote" />
 
   <!-- Bromite Webview -->
-  <project path="platform/prebuilts/webview" name="android_external_bromite-webview" remote="MSe1969" clone-depth="1" />
+  <!-- <project path="platform/prebuilts/webview" name="android_external_bromite-webview" remote="MSe1969" clone-depth="1" /> -->
 
   <!-- Ungoogled Chromium Webview -->
   <!-- <project path="platform/prebuilts/webview" name="ros-webview" remote="personal-remote" clone-depth="1" /> -->
