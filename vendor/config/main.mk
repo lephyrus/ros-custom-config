@@ -1,9 +1,10 @@
 # do not rename this or change path
 DEVICE_PACKAGE_OVERLAYS += vendor/custom/vendor/overlay/common
 
-# Bromite Webview
-# PRODUCT_PACKAGES += \
-#     bromite-webview
+# Vanadium
+PRODUCT_PACKAGES += \
+    TrichromeChrome \
+    TrichromeWebView
 
 # MicroG
 PRODUCT_PACKAGES += \

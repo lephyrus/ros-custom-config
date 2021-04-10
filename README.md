@@ -10,9 +10,6 @@ This is an example custom config repo that does the following:
 * adds AuroraStore and AuroraServices 
   * project added in `local_manifests/custom.xml`
   * product_packages added in `vendor/config/main.mk`
-* adds Ungoogled Chromium Webview
-  * project added in `local_manifests/custom.xml`
-  * product_packages added in `vendor/config/main.mk`
 * applies community patches in `hooks/aosp_build_pre.sh`
 * adds a fix to make newer versions of google camera to work
   * google_experience.xml added in `prebuilt`
