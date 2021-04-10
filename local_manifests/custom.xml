@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="personal-remote" fetch="https://github.com/lephyrus/" revision="11.0" />
+  <remote name="grapheneos" fetch="https://github.com/grapheneos/" revision="11" />
   <remote name="seedvault-app" fetch="https://github.com/seedvault-app/" revision="master" />
 
   <!-- this custom repo - do not change path -->
