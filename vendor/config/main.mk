@@ -3,7 +3,6 @@ DEVICE_PACKAGE_OVERLAYS += vendor/custom/vendor/overlay/common
 
 # Vanadium
 PRODUCT_PACKAGES += \
-    TrichromeChrome \
     TrichromeWebView
 
 # MicroG
