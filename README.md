@@ -13,4 +13,8 @@ This is an example custom config repo that does the following:
 * applies community patches in `hooks/aosp_build_pre.sh`
 * adds a fix to make newer versions of google camera to work
   * google_experience.xml added in `prebuilt`
-  * prodcut_copy_files in `vendor/config/main.mk`
+  * product_copy_files in `vendor/config/main.mk`
+* adds eSIM support (hardcoded to sunfish)
+  * android-prepare-vendor sunfish config patch in `hooks/setup_vendor_pre.sh`
+  * `privapp-permissions-aosp-extended.xml` from CalyxOS in `prebuilt`
+  * product_copy_files in `vendor/config/main.mk`

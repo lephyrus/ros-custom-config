@@ -1,0 +1,16 @@
+diff --git a/vendor/android-prepare-vendor/sunfish/config.json b/vendor/android-prepare-vendor/sunfish/config.json
+index 5fcef00..ece14a9 100644
+--- a/vendor/android-prepare-vendor/sunfish/config.json
++++ b/vendor/android-prepare-vendor/sunfish/config.json
+@@ -27,7 +27,10 @@
+     "naked": {
+       "overlays-dir": "",
+       "rro-overlays": ["CarrierConfigOverlay"],
+-      "product-bytecode": [],
++      "product-bytecode": [
++        "product/priv-app/EuiccGoogle/EuiccGoogle.apk::PRESIGNED",
++        "product/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk::PRESIGNED"
++      ],
+       "product-other": [
+         "product/etc/apns-conf.xml",
+         "product/lib/libdmengine.so",
