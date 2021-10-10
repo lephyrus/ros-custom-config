@@ -7,7 +7,7 @@ This is an example custom config repo that does the following:
   * sigspoof patch in `hooks/aosp_build_pre.sh`
   * project added in `local_manifests/custom.xml`
   * product_packages added in `vendor/config/main.mk`
-* adds AuroraStore and AuroraServices 
+* adds AuroraStore, AuroraDroid and AuroraServices 
   * project added in `local_manifests/custom.xml`
   * product_packages added in `vendor/config/main.mk`
 * applies community patches in `hooks/aosp_build_pre.sh`

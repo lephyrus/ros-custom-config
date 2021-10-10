@@ -19,7 +19,8 @@ PRODUCT_PACKAGES += \
 # Aurora
 PRODUCT_PACKAGES += \
     AuroraStore \
-    AuroraServices
+    AuroraServices \
+    AuroraDroid
 
 # Fix for Google Camera
 PRODUCT_COPY_FILES += \
