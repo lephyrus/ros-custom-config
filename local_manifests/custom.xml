@@ -2,6 +2,7 @@
 <manifest>
   <remote name="personal-remote" fetch="https://github.com/lephyrus/" />
   <remote name="seedvault-app" fetch="https://github.com/seedvault-app/" revision="android12" />
+  <remote name="grapheneos" fetch="https://gitlab.com/grapheneos/" revision="12" />
 
   <!-- this custom repo - do not change path -->
   <project path="vendor/custom" name="ros-custom-config" remote="personal-remote" revision="12.0" />
@@ -14,5 +15,11 @@
 
   <!-- AuroraStore, AuroraServices -->
   <project path="external/aurora" name="ros-aurora" remote="personal-remote" clone-depth="1" revision="master" />
+
+  <!-- Vanadium prebuilt -->
+  <project path="external/vanadium" name="platform_external_vanadium" remote="grapheneos" clone-depth="1" />
+  <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
 
 </manifest>

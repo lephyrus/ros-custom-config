@@ -13,3 +13,4 @@ This is an example custom config repo that does the following:
 * adds a fix to make newer versions of google camera to work
   * google_experience.xml added in `prebuilt`
   * prodcut_copy_files in `vendor/config/main.mk`
+* adds prebuilt Vanadium webview instead of Chrome
